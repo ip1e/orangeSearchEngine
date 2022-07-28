@@ -3,11 +3,50 @@
     padding: 0;
     background-color:#F2F2F2;
     font-family: 'Encode Sans', sans-serif;
+    font-size: 10px;
 }
 a {text-decoration: none;
     color: #031D5B;
     font-weight: 700;
-    font: size 1rem;
-    
+    font-size:  1.6rem;
 
+}
+header {
+    text-align: center;
+}
+#nav-container {display: flex; 
+    justify-content: space-evenly;
+    margin-bottom: 3rem;
+}
+main {
+text-align: center;
+}
+#iphone {width: 80vw;
+}
+#search-field {
+    width: 336px;
+height: 48px;
+background: #FFFFFF;
+border: 1px solid #F8765E;
+box-shadow: inset 0px 1px 5px #B6BBC9;
+border-radius: 4px;
+font-weight: 700;
+}
+input[type="search"] {
+    padding: 14px; 
+    font-size: 1.6rem;
+}
+::placeholder{
+    color: #B6BBC9;
+}
+#magnifier {
+    margin-left: -35px;
+    margin-top: 0px;
+}
+
+@media screen and (min-width: 480px) {
+    #iphone {
+        width: 60vw;
+    }
+    
 }
